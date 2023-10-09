@@ -15,9 +15,8 @@ function ProjectCard(props) {
           {props.description}
         </Card.Text>
         <Button className="viewbtn" variant="primary" href={props.ghLink} target="_blank">
-          View
+          View On Github
         </Button>
-
 
         {!props.isBlog && props.demoLink && (
           <Button

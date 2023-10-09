@@ -86,7 +86,7 @@ function Header() {
           <Button
             onClick={() => {
               window.open(
-                ""
+                "https://jobinja.ir/user/CP-3796863"
               );
             }}
             className="resumebtn"
